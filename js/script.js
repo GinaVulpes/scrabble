@@ -23,7 +23,7 @@ double_letter_score_pos=[4,12,53, 37,39, 46, 60, 93,97,99,103, 109, 117, 123,127
        else if (double_letter_score_pos.indexOf(grid_pos)!=-1){
         rect.setAttributeNS(null, 'fill', '#b5daee');
       }
-            else if (i==j || i==14-j){
+        else if (i==j || i==14-j){
         rect.setAttributeNS(null, 'fill', '#aed696');
       }
       document.getElementById("grid").appendChild(rect);
