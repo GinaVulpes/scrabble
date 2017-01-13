@@ -1,40 +1,38 @@
-.tile { width:50px;
-  height: 50px;
-  background: grey;
+.tile { width:49px;
+  height: 49px;
+  background: beige;
   border-radius: 5px;
-  border: 1px solid #61122f;
-z-index:1;}
+  border: 1px solid gray;
+z-index:1;
+float:left;
+margin-right: 3px}
 
 
 #makeMeDraggable { }
 #makeMeDraggable.ui-draggable-dragging { opacity:0.5; }
 
 #grid_box{
-width: 100%;
-height: 800px;
-background-color: None;
+width: 780px;
+height: 780px;
+background-color: gray;
 position: relative;
-}
-
-#tile_box{
-  height:48px;
-  width:48px;
-  stroke: green;
-  fill:white;
-  border-radius: 5px;
+padding:10px;
+float:left;
+margin-top:10px;
 }
 
 #grid{
-  stroke: green;
-  fill:white;
-  border-radius: 5px;
+  stroke:cornsilk;
+  stroke-width: 2px;
+  fill:#aea981;
 }
 
 div.hovered {
   opacity:0.5;
 }
+
 rect:hover{
-  opacity:0.5;
+  opacity:0.7;
 }
 
 body {

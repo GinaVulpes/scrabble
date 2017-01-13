@@ -17,9 +17,9 @@
 					<div class="navbar-header">
 						<!-- Insert Logo -->
 						<!-- <a href="index.html" class="pull-left visible-md visible-lg visible-sm">
-									<div id="logo_img" alt="logo">
-												<img src="img/logo.gif" id="logo_img" alt="Scrabble logo">
-									</div>
+										<div id="logo_img" alt="logo">
+														<img src="img/logo.gif" id="logo_img" alt="Scrabble logo">
+										</div>
 						</a> -->
 						<!-- Insert Title -->
 						<div class="navbar-brand">
@@ -38,40 +38,40 @@
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<!-- <div class="collapse navbar-collapse" id="collapsable-nav">
-							<ul class="nav navbar-nav navbar-right">
-									<li><a href="#">Link <span class="sr-only">(current)</span></a></li>
-									<li><a href="index.html">Link</a></li>
-									<li class="dropdown">
-											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-											<ul class="dropdown-menu">
-													<li><a href="#">Action</a></li>
-													<li><a href="#">Another action</a></li>
-													<li><a href="#">Something else here</a></li>
-													<li role="separator" class="divider"></li>
-													<li><a href="#">Separated link</a></li>
-													<li role="separator" class="divider"></li>
-													<li><a href="#">One more separated link</a></li>
-											</ul>
-									</li>
+								<ul class="nav navbar-nav navbar-right">
+											<li><a href="#">Link <span class="sr-only">(current)</span></a></li>
+											<li><a href="index.html">Link</a></li>
+											<li class="dropdown">
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+														<ul class="dropdown-menu">
+																	<li><a href="#">Action</a></li>
+																	<li><a href="#">Another action</a></li>
+																	<li><a href="#">Something else here</a></li>
+																	<li role="separator" class="divider"></li>
+																	<li><a href="#">Separated link</a></li>
+																	<li role="separator" class="divider"></li>
+																	<li><a href="#">One more separated link</a></li>
+														</ul>
+											</li>
 						</ul> -->
 						<!-- <form class="navbar-form navbar-left" role="search">
-								<div class="form-group">
-										<input type="text" class="form-control" placeholder="Search">
-								</div>
-								<button type="submit" class="btn btn-default">Submit</button>
+									<div class="form-group">
+												<input type="text" class="form-control" placeholder="Search">
+									</div>
+									<button type="submit" class="btn btn-default">Submit</button>
 						</form> -->
 						<!-- <ul class="nav navbar-nav navbar-right">
-								<li><a href="#">Link</a></li>
-								<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-										<ul class="dropdown-menu">
-												<li><a href="#">Action</a></li>
-												<li><a href="#">Another action</a></li>
-												<li><a href="#">Something else here</a></li>
-												<li role="separator" class="divider"></li>
-												<li><a href="#">Separated link</a></li>
-										</ul>
-								</li>
+									<li><a href="#">Link</a></li>
+									<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+												<ul class="dropdown-menu">
+															<li><a href="#">Action</a></li>
+															<li><a href="#">Another action</a></li>
+															<li><a href="#">Something else here</a></li>
+															<li role="separator" class="divider"></li>
+															<li><a href="#">Separated link</a></li>
+												</ul>
+									</li>
 						</ul>
 					</div> -->
 					<!-- /.navbar-collapse -->
@@ -105,9 +105,15 @@
 								<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 								<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
 								<div id="main-content" class="container">
-							
-										<div id="makeMeDraggable" class="tile"> </div>
-								
+									<div id="group_tiles">
+										<div id="tile1" class="tile"> </div>
+										<div id="tile2" class="tile"> </div>
+										<div id="tile3" class="tile"> </div>
+										<div id="tile4" class="tile"> </div>
+										<div id="tile5" class="tile"> </div>
+										<div id="tile6" class="tile"> </div>
+										<div id="tile7" class="tile"> </div>
+									</div>
 									
 									<div id= "grid_box" >
 										<svg id="grid" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -116,28 +122,28 @@
 								</div> <!-- end of main container -->
 									<!-- 	<footer class="panel-footer">
 											<div class="container">
-													<div class="row">
-															<section id="Info" class="col-sm-4">
-																	<span>Info:</span><br>
-																	Blah Blah<br>
-																	Blah Blah<br>
-																	Blah Blah
-																	<hr class="visible-xs">
-															</section>
-															<section id="more_info" class="col-sm-4">
-																	<span>More info:</span><br>
-																	Blah Blah<br>
-																	Blah Blah<br>
-																	Blah Blah
-																	<p>* and a footnote.</p>
-																	<hr class="visible-xs">
-															</section>
-															<section id="final_info" class="col-sm-4">
-																	<p>"Wow"</p>
-																	<p>"Kawaii!!"</p>
-															</section>
-													</div>
-													<div class="text-center">&copy; Copyright blah blah 2017</div>
+														<div class="row">
+																	<section id="Info" class="col-sm-4">
+																				<span>Info:</span><br>
+																				Blah Blah<br>
+																				Blah Blah<br>
+																				Blah Blah
+																				<hr class="visible-xs">
+																	</section>
+																	<section id="more_info" class="col-sm-4">
+																				<span>More info:</span><br>
+																				Blah Blah<br>
+																				Blah Blah<br>
+																				Blah Blah
+																				<p>* and a footnote.</p>
+																				<hr class="visible-xs">
+																	</section>
+																	<section id="final_info" class="col-sm-4">
+																				<p>"Wow"</p>
+																				<p>"Kawaii!!"</p>
+																	</section>
+														</div>
+														<div class="text-center">&copy; Copyright blah blah 2017</div>
 											</div>
 									</footer> -->
 									<script src="js/script.js"></script>
