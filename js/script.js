@@ -38,12 +38,16 @@ double_letter_score_pos=[4,12,53, 37,39, 46, 60, 93,97,99,103, 109, 117, 123,127
 // document.getElementById("grid_star").appendChild(path);
 
 
-  $( init );
+ $( init );
  
 function init() {
   $('.tile').draggable({
-    containment:'#main-content',
+    containment:'#board',
     cursor:'move',
-    snap:'.snapToMe'
+    snap:'.snapToMe',
+    snapMode:'inner'
   });
 }
+
+
+
